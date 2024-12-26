@@ -88,7 +88,7 @@ Download generated finetuning data from "https://huggingface.co/yinanzhou1/mtst_
 ### Pre-Training
 
 
-
+```sh
 python src/blip_fine_tune_2.py \
    --dataset {'CIRRGen' or 'FashionIQGen'} \
    --blip-model-name 'blip2_cir_cat' \
@@ -101,7 +101,7 @@ python src/blip_fine_tune_2.py \
    --save-training \
    --save-best \
    --validation-frequency 1 
-
+```
 ### Training
 
 change the path of ``pretrained: "PATH_TO_PRETRAINED_WEIGHTS" '' in MTST_PTHA/src/lavis/configs/models/blip2/blip2_pretrain_mtst.yaml for finetuning MTST pretrained model
