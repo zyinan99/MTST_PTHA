@@ -83,6 +83,7 @@ project_base_path
 
 change ``base_path = Path("path_to_data_dir")'' in MTST_PTHA/src/data_utils.py
 Download pretrained path from "https://huggingface.co/yinanzhou1/mtst_ptha/blob/main/tuned_mtst_cirr.pt"
+Download generated pretraining data from "https://huggingface.co/yinanzhou1/mtst_ptha/blob/main/cirr_modifier_generated_5p_completed_rev.json"
 Download generated finetuning data from "https://huggingface.co/yinanzhou1/mtst_ptha/blob/main/cirr_train_modifier_rev_long.json"
 ### Pre-Training
 
